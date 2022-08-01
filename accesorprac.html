@@ -1,0 +1,17 @@
+<html><head><title>Javascript Objects</title></head>
+<body>
+    <h1>Creating Javascript Objects
+    </h1><p id="demo"></p>
+
+<script>
+    var car = {
+         model: "BMW 320d",
+         color: "Navy Blue",
+         fuel_type: "Diesel",
+         get color(){
+             return this.color
+        },
+    };
+    document.getElementById("demo").innerHTML = car.color;
+</script>
+</body></html>
